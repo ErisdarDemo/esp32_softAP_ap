@@ -3,6 +3,8 @@
 
 # Wi-Fi SoftAP Example
 
+@targ 	ESP32_C COM3
+
 (See the README.md file in the upper level 'examples' directory for more information about examples.)
 
 This example shows how to use the Wi-Fi SoftAP functionality of the Wi-Fi driver of ESP for serving as an Access Point.
