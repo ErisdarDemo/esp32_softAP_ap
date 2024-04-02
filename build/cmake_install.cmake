@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jreina/Documents/MyWorkspaces/Espressif_WiFi/softAP
+# Install script for directory: C:/Users/jreina/Documents/MyWorkspaces/Espressif_WiFi/softAP_ap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/jreina/Documents/MyWorkspaces/Espressif_WiFi/softAP/build/esp-idf/cmake_install.cmake")
+  include("C:/Users/jreina/Documents/MyWorkspaces/Espressif_WiFi/softAP_ap/build/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/jreina/Documents/MyWorkspaces/Espressif_WiFi/softAP/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/jreina/Documents/MyWorkspaces/Espressif_WiFi/softAP_ap/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
